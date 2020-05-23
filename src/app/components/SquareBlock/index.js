@@ -11,6 +11,7 @@ class SquareBlock extends React.Component {
         }
         this.soundObject = new Audio.Sound();
         this.soundObject.loadAsync(this.props.file);
+
     }
 
     playSound() {
